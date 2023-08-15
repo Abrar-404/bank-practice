@@ -1,17 +1,17 @@
 
-document.getElementById('btn-deposit').addEventListener('click', function () {
+// document.getElementById('btn-deposit').addEventListener('click', function () {
   
-  const newDepositAmount = getInputFieldValueById('deposit-amount');
+//   const newDepositAmount = getInputFieldValueById('deposit-amount');
 
-  const previousDepositTotal = getElementValueById('deposit-total');
+//   const previousDepositTotal = getElementValueById('deposit-total');
 
-  const newDepositTotal = previousDepositTotal + newDepositAmount;
+//   const newDepositTotal = previousDepositTotal + newDepositAmount;
 
-  setTextElementValueId('deposit-total', newDepositTotal);
+//   setTextElementValueId('deposit-total', newDepositTotal);
 
-  const previousBalanceTotal = getElementValueById('balance-total');
+//   const previousBalanceTotal = getElementValueById('balance-total');
 
-  const newBalanceTotal = previousBalanceTotal + newDepositAmount;
+//   const newBalanceTotal = previousBalanceTotal + newDepositAmount;
 
-  setTextElementValueId('balance-total', newBalanceTotal);
-})
+//   setTextElementValueId('balance-total', newBalanceTotal);
+// })
